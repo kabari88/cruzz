@@ -1536,7 +1536,7 @@ left: 100px;
 @media (max-width:420px){
     #hero {
         width: 100%;
-        height: 55vh;
+        height: 70vh;
         background-color: var(--primarycolor);
     }
 
@@ -1561,6 +1561,7 @@ left: 100px;
     }
     #about .about-sec {
         width: 300px;
+        height: 65vh;
         align-items: center;
         justify-content: center;
     }
@@ -1626,7 +1627,7 @@ left: 100px;
         padding-bottom: 40px;
     }
     .footer-row {
-        height: 70vh;
+        height: 90vh;
     }
     .col1 {
         width: 20%;
@@ -1649,7 +1650,7 @@ left: 100px;
     .col2 .links {
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 60px;
         /* justify-content: space-between; */
         width: 100%;
     }
