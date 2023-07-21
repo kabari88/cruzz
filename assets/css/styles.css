@@ -1651,7 +1651,6 @@ left: 100px;
         display: flex;
         flex-direction: column;
         margin-left: 60px;
-        /* justify-content: space-between; */
         width: 100%;
     }
     .col2 .links .abt {
