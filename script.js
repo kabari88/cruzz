@@ -14,6 +14,11 @@ if (close){
     }); 
 }
 
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
+
 
 var btc = document.getElementById("bitcoin")
 var ltc = document.getElementById("litecoin")
