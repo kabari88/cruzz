@@ -1531,30 +1531,34 @@ left: 100px;
     }
     #hero {
         width: 100%;
-        height: 70vh;
+        height: 55vh;
         background-color: var(--primarycolor);
         display: flex;
         flex-direction: column;
+        margin-bottom: 70px;
     }
-
+    #hero .hero-content {
+       align-items: center;
+       justify-content: center;
+    }
     #hero .hero-content .hero-text {
         width: 100%;
+       padding-left: 60px;
+       padding-top: 20px;
     }
 
     #hero .hero-content .hero-text h1 {
         font-size: 1.6rem;
         line-height: 1.4rem;
         padding-bottom:20px ;
+        width: 100%;
     }
     #hero .hero-content .hero-text p {
         font-size: 16px;
         font-family: var(--font);
     }
     #hero .hero-content .hero-img img {
-        width: 150px;
-        height: 150px;
-        margin-top: 100px;
-        margin-left: 5px;
+       display: none;
     }
     #about .about-sec {
         width: 100%;
@@ -1633,7 +1637,8 @@ left: 100px;
         padding-bottom: 40px;
     }
     .footer-row {
-        height: 50vh;
+        height: 60vh;
+        width: 100%;
     }
     .col1 {
         width: 40%;
@@ -1644,12 +1649,13 @@ left: 100px;
     }
     .col1 p{
         padding-top: 6px;
+        font-size: 13px;
     }
     .footer-row .col1 h2{
-        font-size: 17px;
+        font-size: 14px;
     }
     .footer-row .col1 h2 span{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .col2 .links {
@@ -1657,6 +1663,7 @@ left: 100px;
         flex-direction: column;
         margin-left: 30px;
         width: 100%;
+        font-size: 12px;
     }
     .col2 .links .abt {
         width: 100%;
@@ -1664,7 +1671,6 @@ left: 100px;
         margin-bottom: 20px;
     }
     .col2 .links h2{
-        font-size: 18px;
         padding-bottom: 3px;
     }
     /* #blog {
