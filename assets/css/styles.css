@@ -1531,7 +1531,7 @@ left: 100px;
     }
     #hero {
         width: 100%;
-        height: 55vh;
+        height: 85vh;
         background-color: var(--primarycolor);
         display: flex;
         flex-direction: column;
@@ -1565,10 +1565,11 @@ left: 100px;
         height: 65vh;
         align-items: center;
         justify-content: center;
+        padding: 20px;
     }
     #about .about-sec h1 {
        padding-bottom: 10px;
-       padding-left: 100px;
+       padding-left: 50px;
         font-size: 1.6rem;
     }
     #about .about-sec p {
@@ -1672,6 +1673,12 @@ left: 100px;
     }
     .col2 .links h2{
         padding-bottom: 3px;
+    }
+    .col2 .links .abt ul li a {
+        font-size: 13px;
+    }
+    .col2 .links .contact p {
+        font-size: 14px;
     }
     /* #blog {
         padding: 100px 20px 0 20px;
